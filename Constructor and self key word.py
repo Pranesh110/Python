@@ -4,11 +4,11 @@
 constructor is a unique function that can automaticaly called after obfect is created by clas
 
 class laptop():
-    def __initi__():
-        print(deom)
+    def __init__(self):
+        print("demo")
     def price():
         print(50)
-hp.laptop()  
+hp=laptop()  
 
 now output will be deom no need to call that fucntion init
 it will automatically call
