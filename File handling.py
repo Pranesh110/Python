@@ -28,10 +28,11 @@
 # a-- append the value with out delete the old values
 
 
-a=open("test.txt","r+")
-print(a.read())
-a=open("test.txt","a")
-a.write("hi\n")
+a=open("test.txt","w+")
+a.write("Byeeees")
 a.close()
-a=open("test.txt","r+")
+a=open("test.txt","w+")
 print(a.read())
+
+
+#a.seek(0)  to move the cursor to top of the file if using a+ or w+ coz after write the cusor will move to down so when giving read after write it will show empty string and to make the cursor at top use seek(0)
